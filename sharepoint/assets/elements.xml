@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="EmployeeRequestsBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="74552b07-4fb7-491b-84bd-94b4a3061932"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

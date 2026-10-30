@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.23.0",
+    "libraryName": "sp-fx-application-customizer",
+    "libraryId": "b97c8cc0-e7e1-4402-8905-d2cc5d4b1ba4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-fx-application-customizer",
+    "solutionShortDescription": "sp-fx-application-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

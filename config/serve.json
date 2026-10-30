@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ygr11.sharepoint.com/sites/EmployeeRequestsPractice/SitePages/Home.aspx",
+      "customActions": {
+        "74552b07-4fb7-491b-84bd-94b4a3061932": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "employeeRequestsBanner": {
+      "pageUrl": "https://ygr11.sharepoint.com/sites/EmployeeRequestsPractice/SitePages/Home.aspx",
+      "customActions": {
+        "74552b07-4fb7-491b-84bd-94b4a3061932": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

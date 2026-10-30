@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "employee-requests-banner-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/employeeRequestsBanner/EmployeeRequestsBannerApplicationCustomizer.js",
+          "manifest": "./src/extensions/employeeRequestsBanner/EmployeeRequestsBannerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmployeeRequestsBannerApplicationCustomizerStrings": "lib/extensions/employeeRequestsBanner/loc/{locale}.js"
+  }
+}
